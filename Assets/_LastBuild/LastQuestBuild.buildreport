@@ -1,0 +1,878 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-7948968459068964889
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-2ed1b97bec1dc156ed218e31042f5f38
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 84
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!641289076 &-4682159894398623429
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!382020655 &-4363391100841661436
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - AWSSDK.CognitoIdentity
+  - VRCSDK2
+  - nunit.framework
+  - librsync.net
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - AWSSDK.Core
+  - System.Buffers
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - AWSSDK.S3
+  - AWSSDK.SecurityToken
+  - ICSharpCode.SharpZipLib
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  m_EditorPlugins:
+  - OVRPlugin
+  - openvr_api
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - zlibwapi
+  - AudioPluginOculusSpatializer
+  - VRCSDK2-Editor
+  - UnityEditor.VR
+  - VRCSDKBase-Editor
+  - DotZLib
+  - log4netPlastic
+  - libopenvr_api
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastQuestBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 637716762165162401
+    buildGUID: 00000000000000000000000000000000
+    platformName: Android
+    platformGroupName: Android
+    options: 16
+    assetBundleOptions: 0
+    outputPath: C:/Users/NOTASH~1/AppData/Local/Temp/DefaultCompany/fiverrClassroom/customscene.vrcw
+    crc: 2880196243
+    totalSize: 7293586
+    totalTimeTicks: 182880042
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Projects/fiverrClassroom/customscene.vrcw/BuildPlayer-SampleScene
+    role: Scene
+    id: 0
+    totalSize: 1897116
+  - path: D:/Projects/fiverrClassroom/customscene.vrcw/BuildPlayer-SampleScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 29270680
+  - path: D:/Projects/fiverrClassroom/customscene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 7288962
+  - path: D:/Projects/fiverrClassroom/customscene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 3443
+  - path: D:/Projects/fiverrClassroom/fiverrClassroom/CAB-2ed1b97bec1dc156ed218e31042f5f38
+    role: ResourcesFile
+    id: 4
+    totalSize: 4284
+  - path: D:/Projects/fiverrClassroom/fiverrClassroom
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1037
+  - path: D:/Projects/fiverrClassroom/fiverrClassroom.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 144
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 182880042
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 295483
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 33254965
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 93185408
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1490888
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 18765896
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/SampleScene.unity
+    durationTicks: 18760488
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 6308324
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-SampleScene/BuildPlayer-SampleScene.sharedAssets
+    durationTicks: 6284922
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 56413437
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 331805
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 3295712447706888908}
+  - {fileID: 2019879431104248889}
+  - {fileID: -4363391100841661436}
+  - {fileID: -4682159894398623429}
+  - {fileID: -7948968459068964889}
+--- !u!1126 &2019879431104248889
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-SampleScene.sharedAssets
+  m_Overhead: 106451
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 97
+    offset: 108240
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 132
+    offset: 108344
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 932
+    offset: 108480
+    sourceAssetGUID: 6b6aaba3c418bc44db7c64f97c77de95
+    buildTimeAssetPath: Assets/ModelsPrefabs/room_air_conditioner.obj
+  - fileID: 4
+    classID: 21
+    packedSize: 1052
+    offset: 109416
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 5
+    classID: 21
+    packedSize: 900
+    offset: 110472
+    sourceAssetGUID: 7e139bfe3db76de4785b8886dafef749
+    buildTimeAssetPath: Assets/Materials/1984-book_C 1.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 896
+    offset: 111376
+    sourceAssetGUID: 1ed273a6fba0e2647aaf327097bc9856
+    buildTimeAssetPath: Assets/Materials/41gr3r3FSWL.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 900
+    offset: 112272
+    sourceAssetGUID: 830b2e0dccde2414e9b2d20cba502ec9
+    buildTimeAssetPath: Assets/Materials/Black50smooth.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 896
+    offset: 113176
+    sourceAssetGUID: f61818258e3d44343bf519a12d63e04e
+    buildTimeAssetPath: Assets/Materials/BlackSmooth.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 920
+    offset: 114072
+    sourceAssetGUID: 24eaae69c256b4a40ad07441ced9a8b9
+    buildTimeAssetPath: Assets/Materials/BrickWall.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 932
+    offset: 114992
+    sourceAssetGUID: e8f719cf08ef2434aba87f85bb0dc0b2
+    buildTimeAssetPath: Assets/Materials/Chairs/LowPoly_School_chair_texture_orange.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 892
+    offset: 115928
+    sourceAssetGUID: cc64cb186c6ad7c4aa2b328e3b67369c
+    buildTimeAssetPath: Assets/Materials/Chairs/Metal.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 904
+    offset: 116824
+    sourceAssetGUID: 903b4c6185481034e8390b16790e83b7
+    buildTimeAssetPath: Assets/Materials/Chairs/plastic.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 944
+    offset: 117728
+    sourceAssetGUID: 642279a7ed400ca41841e727f5871b77
+    buildTimeAssetPath: Assets/Materials/Door&Window/CSAC.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 940
+    offset: 118672
+    sourceAssetGUID: 4f787eec5225e6547bc9faa7066705f8
+    buildTimeAssetPath: Assets/Materials/Door&Window/Glass.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 904
+    offset: 119616
+    sourceAssetGUID: 92166f0f9b999584ab6aa26b218c8167
+    buildTimeAssetPath: Assets/Materials/Door&Window/doorwood.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 952
+    offset: 120520
+    sourceAssetGUID: 4743e20cb15e1b94688c973bf966d8dd
+    buildTimeAssetPath: Assets/Materials/Door&Window/metaldoor.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 904
+    offset: 121472
+    sourceAssetGUID: c45736976495f8944abcad1acd13d445
+    buildTimeAssetPath: Assets/Materials/Ground.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 896
+    offset: 122376
+    sourceAssetGUID: fc73288cb55309a40810a50c74f57ad8
+    buildTimeAssetPath: Assets/Materials/HQ MIRROR.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 952
+    offset: 123272
+    sourceAssetGUID: 45310f7f82858e247aff5d9272323534
+    buildTimeAssetPath: Assets/Materials/Invisible.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 896
+    offset: 124224
+    sourceAssetGUID: 5de06217c2e011d4b91a26b91dab129b
+    buildTimeAssetPath: Assets/Materials/LQ MIRROR.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 908
+    offset: 125120
+    sourceAssetGUID: a7b1bb209313e4b4aa70971db93fa3a2
+    buildTimeAssetPath: Assets/Materials/Lights/whitelight.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 920
+    offset: 126032
+    sourceAssetGUID: 240064b49076a084b8488cd60733b35a
+    buildTimeAssetPath: Assets/Materials/Materials/TexturesCom_Hedges0013_S.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 708
+    offset: 126952
+    sourceAssetGUID: 09690a0ecffb01646aa09a43ff39a8d9
+    buildTimeAssetPath: Assets/Materials/New Material.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 948
+    offset: 127664
+    sourceAssetGUID: e65be1b41beec844bb2ffbe284715d24
+    buildTimeAssetPath: Assets/Materials/Pavement_ConcreteGeometric3_512_albedo.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 904
+    offset: 128616
+    sourceAssetGUID: c5bddfb5459ecda4da2cb270b936fe73
+    buildTimeAssetPath: Assets/Materials/Walls.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 896
+    offset: 129520
+    sourceAssetGUID: 4baee1f5fba73a04f88699585f338947
+    buildTimeAssetPath: Assets/Materials/WhiteSmooth.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 900
+    offset: 130416
+    sourceAssetGUID: a0e6e188f4a3b584791f03e162378922
+    buildTimeAssetPath: Assets/Materials/Wood.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 952
+    offset: 131320
+    sourceAssetGUID: b4371e63091c5c74f9856c7c9d04c2f3
+    buildTimeAssetPath: Assets/Materials/disclaimer.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 904
+    offset: 132272
+    sourceAssetGUID: b4b306694d804f64dae088a14c3b1de6
+    buildTimeAssetPath: Assets/Materials/wood_1.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 484
+    offset: 133176
+    sourceAssetGUID: ef9adfc2fa38ffa4a865279e33c78021
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/point.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 492
+    offset: 133664
+    sourceAssetGUID: 419ae9fed5372564c995339c60fd7ebf
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/qv_eraser (0).mat
+  - fileID: 32
+    classID: 21
+    packedSize: 492
+    offset: 134160
+    sourceAssetGUID: 3f13a5d1eb038764b804d1aabffed55f
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/qv_eraser (1).mat
+  - fileID: 33
+    classID: 21
+    packedSize: 492
+    offset: 134656
+    sourceAssetGUID: e86e7281176dae945bd655f34805ed55
+    buildTimeAssetPath: Assets/QvPen/Material/Eraser/qv_eraser (2).mat
+  - fileID: 34
+    classID: 21
+    packedSize: 112
+    offset: 135152
+    sourceAssetGUID: 6b64136272204b8458c4bd55be9f97cb
+    buildTimeAssetPath: Assets/QvPen/Material/Ink.mat
+  - fileID: 35
+    classID: 21
+    packedSize: 932
+    offset: 135264
+    sourceAssetGUID: 51d72acecdb1ba249957953415f8e29b
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (0).mat
+  - fileID: 36
+    classID: 21
+    packedSize: 932
+    offset: 136200
+    sourceAssetGUID: b24ed807dd7dc224baf5390f46738647
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (1).mat
+  - fileID: 37
+    classID: 21
+    packedSize: 932
+    offset: 137136
+    sourceAssetGUID: 43d0ae848fdfe6d4495a87f8e80e386b
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (10).mat
+  - fileID: 38
+    classID: 21
+    packedSize: 932
+    offset: 138072
+    sourceAssetGUID: 254a177cd9c57e84683d0fd3bd1be46d
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (11).mat
+  - fileID: 39
+    classID: 21
+    packedSize: 932
+    offset: 139008
+    sourceAssetGUID: e01134920adbcf549ac7f52ceeb583a2
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (12).mat
+  - fileID: 40
+    classID: 21
+    packedSize: 932
+    offset: 139944
+    sourceAssetGUID: 56778de2f4060f14fb06bc8cba7e30b7
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (13).mat
+  - fileID: 41
+    classID: 21
+    packedSize: 984
+    offset: 140880
+    sourceAssetGUID: ce799f3a13788f049bef05d1f3514ff8
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (14).mat
+  - fileID: 42
+    classID: 21
+    packedSize: 932
+    offset: 141864
+    sourceAssetGUID: b3889ddf2a4bd9346a4843eb47e0acb1
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (2).mat
+  - fileID: 43
+    classID: 21
+    packedSize: 932
+    offset: 142800
+    sourceAssetGUID: 49c7ed6d767622b4fadcf200017fd44f
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (3).mat
+  - fileID: 44
+    classID: 21
+    packedSize: 932
+    offset: 143736
+    sourceAssetGUID: dd75a5d3bd47a0c489c0fd71aff39ede
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (4).mat
+  - fileID: 45
+    classID: 21
+    packedSize: 932
+    offset: 144672
+    sourceAssetGUID: a393dafb2990e2c4fa0628ace4444efa
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (5).mat
+  - fileID: 46
+    classID: 21
+    packedSize: 932
+    offset: 145608
+    sourceAssetGUID: 88aa935393607b6409baa45499f5156b
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (6).mat
+  - fileID: 47
+    classID: 21
+    packedSize: 932
+    offset: 146544
+    sourceAssetGUID: 9db9f48f3ee803d448488d4368a140f9
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (7).mat
+  - fileID: 48
+    classID: 21
+    packedSize: 932
+    offset: 147480
+    sourceAssetGUID: 87529c80faca0ef4a881efba652815f3
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (8).mat
+  - fileID: 49
+    classID: 21
+    packedSize: 932
+    offset: 148416
+    sourceAssetGUID: 885a01c79ffd5024489a1fb31f3fffb5
+    buildTimeAssetPath: Assets/QvPen/Material/Pen/color (9).mat
+  - fileID: 50
+    classID: 21
+    packedSize: 888
+    offset: 149352
+    sourceAssetGUID: c2af845bdfb561149b08ba13167ff040
+    buildTimeAssetPath: Assets/QvPen/Material/wood.mat
+  - fileID: 51
+    classID: 21
+    packedSize: 1140
+    offset: 150240
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 52
+    classID: 21
+    packedSize: 908
+    offset: 151384
+    sourceAssetGUID: 6b6aaba3c418bc44db7c64f97c77de95
+    buildTimeAssetPath: Assets/ModelsPrefabs/room_air_conditioner.obj
+  - fileID: 53
+    classID: 28
+    packedSize: 63408
+    offset: 152296
+    sourceAssetGUID: 019de439b8a476a4487a641d53f54171
+    buildTimeAssetPath: Assets/Textures/LQ MIRROR.psd
+  - fileID: 54
+    classID: 28
+    packedSize: 45984
+    offset: 215704
+    sourceAssetGUID: 0ddfd6930da4ede4ca178b460ea98b4d
+    buildTimeAssetPath: Assets/Textures/Marble_TilesSquare9_512_albedo.tif
+  - fileID: 55
+    classID: 28
+    packedSize: 43688
+    offset: 261688
+    sourceAssetGUID: 0ec9d6ff460528d478bf7418d5593e06
+    buildTimeAssetPath: Assets/Textures/Marble_TilesSquare9_512_albedo 1.tif
+  - fileID: 56
+    classID: 28
+    packedSize: 45160
+    offset: 305376
+    sourceAssetGUID: 19a39e4ea98f1d64cb6a1f1203951941
+    buildTimeAssetPath: Assets/Textures/CSAC.psd
+  - fileID: 57
+    classID: 28
+    packedSize: 305224
+    offset: 350536
+    sourceAssetGUID: 2022ea7514a876040b781a89feed13f1
+    buildTimeAssetPath: Assets/Textures/Wall_Stucco3_1x1_1K_normal.tif
+  - fileID: 58
+    classID: 28
+    packedSize: 162860
+    offset: 655760
+    sourceAssetGUID: 2f729cffe41830d4abd55171556cde54
+    buildTimeAssetPath: Assets/Textures/DeskBody.jpg
+  - fileID: 59
+    classID: 28
+    packedSize: 34524
+    offset: 818624
+    sourceAssetGUID: 43ea8febbd589c44e8c78a6b8fc6b1b5
+    buildTimeAssetPath: Assets/Textures/Pavement_ConcreteGeometric3_512_height.tif
+  - fileID: 60
+    classID: 28
+    packedSize: 311672
+    offset: 853152
+    sourceAssetGUID: 7155dc02207e50d46af5ee5cd745fb29
+    buildTimeAssetPath: Assets/Textures/Hedges0013_S 1.jpg
+  - fileID: 61
+    classID: 28
+    packedSize: 56220
+    offset: 1164824
+    sourceAssetGUID: 757ea15df99e37c4c8141c65f0e91bd1
+    buildTimeAssetPath: Assets/Textures/Pavement_ConcreteGeometric3_512_normal.tif
+  - fileID: 62
+    classID: 28
+    packedSize: 65344
+    offset: 1221048
+    sourceAssetGUID: 7c041a3eed1e2054897c7d3b44f5788e
+    buildTimeAssetPath: Assets/Textures/HQ MIRROR.psd
+  - fileID: 63
+    classID: 28
+    packedSize: 174880
+    offset: 1286392
+    sourceAssetGUID: 7f22c47f5b0bb4343a173ae2bc4cbeaf
+    buildTimeAssetPath: Assets/BigFurniturePack/Textures/wood_4.jpg
+  - fileID: 64
+    classID: 28
+    packedSize: 304476
+    offset: 1461272
+    sourceAssetGUID: 8b6e167f3c50e0e4299d554930742ca6
+    buildTimeAssetPath: Assets/Textures/Hedges0013_S.jpg
+  - fileID: 65
+    classID: 28
+    packedSize: 11184928
+    offset: 1765752
+    sourceAssetGUID: 90e56e60365b14e488c395e3d648d75f
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  - fileID: 66
+    classID: 28
+    packedSize: 48860
+    offset: 12950680
+    sourceAssetGUID: 92eaa147407b01e41ab30b048e9f84f7
+    buildTimeAssetPath: Assets/Textures/Pavement_ConcreteGeometric3_512_albedo.tif
+  - fileID: 67
+    classID: 28
+    packedSize: 1398216
+    offset: 12999544
+    sourceAssetGUID: 9528bb39837782a449f105e894308aca
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_dir.png
+  - fileID: 68
+    classID: 28
+    packedSize: 2796320
+    offset: 14397760
+    sourceAssetGUID: 95af39e54c735fc4bbefa97f9032bc09
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-1_comp_light.exr
+  - fileID: 69
+    classID: 28
+    packedSize: 152032
+    offset: 17194080
+    sourceAssetGUID: 99defeb7db3a90b42b7f0daea43a910a
+    buildTimeAssetPath: Assets/Textures/DeskBody 1.jpg
+  - fileID: 70
+    classID: 28
+    packedSize: 13180
+    offset: 17346112
+    sourceAssetGUID: ae28f27ce50e64c44b2176be5ec2f87c
+    buildTimeAssetPath: Assets/Textures/1984-book_C 1.jpg
+  - fileID: 71
+    classID: 28
+    packedSize: 699168
+    offset: 17359296
+    sourceAssetGUID: b85f57159dd296e40941510cbde61814
+    buildTimeAssetPath: Assets/BigFurniturePack/Textures/wood_3.JPG
+  - fileID: 72
+    classID: 28
+    packedSize: 97448
+    offset: 18058464
+    sourceAssetGUID: bdfa8eec3da40c54088cdddf01705e27
+    buildTimeAssetPath: Assets/Textures/LowPoly_School_chair_texture_orange.jpg
+  - fileID: 73
+    classID: 28
+    packedSize: 223144
+    offset: 18155912
+    sourceAssetGUID: c19e43598a4906b449212753d75881a0
+    buildTimeAssetPath: Assets/Textures/OldRustedMetal_MediumRust_1K_roughness.tif
+  - fileID: 74
+    classID: 28
+    packedSize: 1398312
+    offset: 18379056
+    sourceAssetGUID: c70ad1c4fd528d64b9538376449e6ced
+    buildTimeAssetPath: Assets/Textures/TexturesCom_HDRPanorama0036_highrise_square_1K_hdri_sphere_tone_auto_x2_colored_toned_light_ai.jpg
+  - fileID: 75
+    classID: 28
+    packedSize: 251736
+    offset: 19777368
+    sourceAssetGUID: cacd001ef6f971a40af79daeff24331c
+    buildTimeAssetPath: Assets/Textures/Wall_BrickPainted2_2x2_1K_normal.tif
+  - fileID: 76
+    classID: 28
+    packedSize: 67356
+    offset: 20029104
+    sourceAssetGUID: ceac7d49bb3f7af4bb010f2167f055ae
+    buildTimeAssetPath: Assets/Textures/Plastic_Shiny_1K_albedo.tif
+  - fileID: 77
+    classID: 28
+    packedSize: 5592520
+    offset: 20096464
+    sourceAssetGUID: d9149a249d68dd5459e65b553b8f1078
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  - fileID: 78
+    classID: 28
+    packedSize: 165948
+    offset: 25688984
+    sourceAssetGUID: dc96936110e5d2c41a22891af13b0518
+    buildTimeAssetPath: Assets/Textures/Wall_BrickPainted2_2x2_1K_height.tif
+  - fileID: 79
+    classID: 28
+    packedSize: 174880
+    offset: 25854936
+    sourceAssetGUID: e985334e4a9d3ab448b77393b5c06265
+    buildTimeAssetPath: Assets/BigFurniturePack/Textures/wood_1.jpg
+  - fileID: 80
+    classID: 28
+    packedSize: 115768
+    offset: 26029816
+    sourceAssetGUID: e9c741b17a92c0b43a6b16f967f96829
+    buildTimeAssetPath: Assets/Textures/LowPoly_School_chair_texture_orange 1.jpg
+  - fileID: 81
+    classID: 28
+    packedSize: 1398268
+    offset: 26145584
+    sourceAssetGUID: edb5d11e1ae76fd4282700dfad5d5a4d
+    buildTimeAssetPath: Assets/Textures/disclaimer.psd
+  - fileID: 82
+    classID: 28
+    packedSize: 29200
+    offset: 27543856
+    sourceAssetGUID: f63cca3bb20084f4fbebf5f701ac7950
+    buildTimeAssetPath: Assets/Textures/41gr3r3FSWL.jpg
+  - fileID: 83
+    classID: 43
+    packedSize: 3820
+    offset: 27573056
+    sourceAssetGUID: b243b844d7a80a746b855eca5b0582ca
+    buildTimeAssetPath: Assets/QvPen/Mesh/qv_pen.fbx
+  - fileID: 84
+    classID: 43
+    packedSize: 788
+    offset: 27576880
+    sourceAssetGUID: bd83bee821a1a89488f004c9dc04b5b4
+    buildTimeAssetPath: Assets/QvPen/Mesh/qv_eraser.fbx
+  - fileID: 85
+    classID: 43
+    packedSize: 432
+    offset: 27577672
+    sourceAssetGUID: 6b6aaba3c418bc44db7c64f97c77de95
+    buildTimeAssetPath: Assets/ModelsPrefabs/room_air_conditioner.obj
+  - fileID: 86
+    classID: 48
+    packedSize: 1537624
+    offset: 27578104
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 87
+    classID: 48
+    packedSize: 8356
+    offset: 29115728
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 88
+    classID: 48
+    packedSize: 3512
+    offset: 29124088
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 89
+    classID: 48
+    packedSize: 4432
+    offset: 29127600
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 90
+    classID: 48
+    packedSize: 3948
+    offset: 29132032
+    sourceAssetGUID: 8b39b95ac85682040beff730e0cfc77a
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Particle-Alpha.shader
+  - fileID: 91
+    classID: 74
+    packedSize: 2436
+    offset: 29135984
+    sourceAssetGUID: abcbdb45c0f4e0d4688e7a2d065a9396
+    buildTimeAssetPath: Assets/QvPen/Animation/Eraser/erase.anim
+  - fileID: 92
+    classID: 74
+    packedSize: 2288
+    offset: 29138424
+    sourceAssetGUID: 7314617856b5de245b297ee08c015616
+    buildTimeAssetPath: Assets/QvPen/Animation/Event/ignite.anim
+  - fileID: 93
+    classID: 89
+    packedSize: 63264
+    offset: 29140712
+    sourceAssetGUID: 779d51dde7280fd43bb5b6667f63fbc7
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  - fileID: 94
+    classID: 89
+    packedSize: 63264
+    offset: 29203976
+    sourceAssetGUID: c8dcbe1198c9a7e4096155b7d41580b7
+    buildTimeAssetPath: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+  - fileID: 95
+    classID: 91
+    packedSize: 412
+    offset: 29267240
+    sourceAssetGUID: 0850cf01093469d499ee66974276be9c
+    buildTimeAssetPath: Assets/QvPen/Animation/Event/Event.controller
+  - fileID: 96
+    classID: 115
+    packedSize: 96
+    offset: 106256
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 97
+    classID: 115
+    packedSize: 96
+    offset: 106352
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 98
+    classID: 115
+    packedSize: 88
+    offset: 106448
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 99
+    classID: 115
+    packedSize: 88
+    offset: 106536
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 100
+    classID: 115
+    packedSize: 144
+    offset: 106624
+    sourceAssetGUID: 009fbf49e77db344db366a646868e02d
+    buildTimeAssetPath: Assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs
+  - fileID: 101
+    classID: 115
+    packedSize: 144
+    offset: 106768
+    sourceAssetGUID: 039587c051912eb4ead9e58344c5f3ce
+    buildTimeAssetPath: Assets/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs
+  - fileID: 102
+    classID: 115
+    packedSize: 88
+    offset: 106912
+    sourceAssetGUID: 0d0b652f32a2cc243917e4028fa0f046
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Dropdown.cs
+  - fileID: 103
+    classID: 115
+    packedSize: 120
+    offset: 107000
+    sourceAssetGUID: 246cc59c7a84ea44f87f6b70acfe30c5
+    buildTimeAssetPath: Assets/Standard Assets/Utility/FollowTarget.cs
+  - fileID: 104
+    classID: 115
+    packedSize: 136
+    offset: 107120
+    sourceAssetGUID: 3a7cedf246fca744f90cbdc9dbe41166
+    buildTimeAssetPath: Assets/Standard Assets/Utility/TimedObjectActivator.cs
+  - fileID: 105
+    classID: 115
+    packedSize: 88
+    offset: 107256
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 106
+    classID: 115
+    packedSize: 80
+    offset: 107344
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 107
+    classID: 115
+    packedSize: 112
+    offset: 107424
+    sourceAssetGUID: 8233d90336aea43098adf6dbabd606a2
+    buildTimeAssetPath: Packages/com.unity.probuilder/Runtime/Core/ProBuilderMesh.cs
+  - fileID: 108
+    classID: 115
+    packedSize: 112
+    offset: 107536
+    sourceAssetGUID: a8d3968294210ba4a9d2bb96dfa74a16
+    buildTimeAssetPath: Assets/Standard Assets/Cameras/Scripts/AutoCam.cs
+  - fileID: 109
+    classID: 115
+    packedSize: 88
+    offset: 107648
+    sourceAssetGUID: e19747de3f5aca642ab2be37e372fb86
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Outline.cs
+  - fileID: 110
+    classID: 115
+    packedSize: 88
+    offset: 107736
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 111
+    classID: 115
+    packedSize: 80
+    offset: 107824
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 112
+    classID: 115
+    packedSize: 80
+    offset: 107904
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 113
+    classID: 115
+    packedSize: 80
+    offset: 107984
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 114
+    classID: 115
+    packedSize: 96
+    offset: 108064
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 115
+    classID: 115
+    packedSize: 80
+    offset: 108160
+    sourceAssetGUID: f78c4655b33cb5741983dc02e08899cf
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK2.dll
+  - fileID: 116
+    classID: 258
+    packedSize: 3024
+    offset: 29267656
+    sourceAssetGUID: 548ed369624eb4a4c97ff681710f1ffb
+    buildTimeAssetPath: Assets/Scenes/SampleScene/LightingData.asset
+--- !u!668709126 &3295712447706888908
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: customscene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: fiverrClassroom
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
